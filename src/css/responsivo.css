@@ -1,0 +1,43 @@
+@media (max-width: 1280px) {
+  body {
+    padding: 0 40px;
+  }
+
+  .conteudo {
+    margin-left: 100px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .informacoes .descricao {
+    width: 120%;
+    text-align: center;
+    height: auto;
+    font-weight: bold;
+  }
+
+  .botoes-carrossel {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    padding: 40px;
+  }
+
+  .informacoes .logo {
+    display: none;
+
+  }
+
+  .informacoes .descricao {
+    width: 100%;
+  }
+
+  .conteudo {
+    min-height: 70vh;
+    gap: 50px
+  }
+}
